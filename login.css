@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+  }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Kontener glowny */
+  #main-holder {
+    width: 400px;
+    margin: 20px;
+    display: grid;
+    justify-items: center;
+    background-color: #fff;
+    padding: 20px; /* Dodatkowy padding wewnątrz kontenera */
+    border-radius: 8px; /* Zaokrąglenie narożników */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Lekki cień z przezroczystością */
+  }
+  
+  /* Komunikaty bledow */
+  #login-error-msg-holder {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  #login-error-msg {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 10px;
+    font-weight: bold;
+    color: #8a0000;
+    opacity: 0;
+}
+  
+  #error-msg-second-line {
+    display: block;
+  }
+
+  /* Nagłówek formularza logowania */
+  #login-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Tytuł formularza logowania */
+  .login-form-title {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Pola formularza */
+  .login-form-field {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Efekt na focusie dla pól formularza */
+  .login-form-field:focus {
+    border-color: rgb(55, 23, 143);
+  }
+  
+  /* Przycisk zatwierdzania formularza */
+  #login-form-submit {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(55, 23, 143);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efekt na hoverze dla przycisku */
+  #login-form-submit:hover {
+    background-color: rgb(55, 23, 143);
+  }
+  

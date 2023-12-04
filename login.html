@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header" class="login-form-title">Login</h1>
+
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+
+      <!-- Kontener dla komunikatu o błędzie -->
+      <div id="error-container">
+        <p id="login-error-msg"></p>
+      </div>
+
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+    <script src="login.js"></script>
+  </main>
+</body>
+
+</html>
